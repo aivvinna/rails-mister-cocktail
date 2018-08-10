@@ -11,7 +11,7 @@
     <div class="col-xs-12 col-sm-4">
       <%= link_to cocktail_path(cocktail) do %>
       <div class="card"
-        style="background-image: url('<%= cl_image_path cocktail.photo, height: 300, width: 400, crop: :fill %>')">
+        style="background-image: url('<%= cocktail_photo_or_default cocktail %>')">
         <div class="card-linear-gradient">
           <div class="card-description">
             <h2><%= cocktail.name %></h2>
