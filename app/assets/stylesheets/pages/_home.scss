@@ -1,15 +1,27 @@
 // Specific CSS for your home-page
 .cover{
-    color: rgb(255, 255, 255);
-    position: relative;
-    min-height: 350px;
-    background: asset-url("cocktailbg.jpg") no-repeat scroll 0px 100% / cover transparent;
-    height: 100vh;
-    background-size: cover;
+  color: rgb(255, 255, 255);
+  position: relative;
+  min-height: 350px;
+  background: asset-url("cocktailbg.jpg") no-repeat scroll 0px 100% / cover transparent;
+  height: 100vh;
+  background-size: cover;
 }
 
 #cocktail-title {
-  font-family: 'Do Hyeon', sans-serif;;
+  margin-top: 0px;
+  font-family: 'Do Hyeon', sans-serif;
   font-weight: 1000;
   font-size: 200px;
+}
+
+.cocktail-header {
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: 1000;
+  font-size: 100px;
+}
+
+.moving-text {
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
 }

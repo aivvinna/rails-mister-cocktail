@@ -1,14 +1,26 @@
-<div class="cover">
+<div class="home-banner">
   <h1 class="text-center" id="cocktail-title">Cocktails</h1>
+  <h2 class="text-center moving-text">
+    <span id="banner-typed-text"></span>
+  </h2>
 </div>
-
+<h1 class="text-center cocktail-header">Refreshing Cocktails</h1>
 <div class="container">
-  <% @cocktails.each do |cocktail| %>
-    <div class="cards">
+  <div class="row">
+    <% @cocktails.each do |cocktail| %>
+    <div class="col-xs-12 col-sm-4">
       <%= link_to cocktail_path(cocktail) do %>
-      <h3 class="text-center"><%= cocktail.name %></h3>
+      <div class="card"
+        style="background-image: url('<%= cl_image_path cocktail.photo, height: 300, width: 400, crop: :fill %>')">
+        <div class="card-linear-gradient">
+          <div class="card-description">
+            <h2><%= cocktail.name %></h2>
+          </div>
+        </div>
+      </div>
       <% end %>
     </div>
-  <% end %>
+    <% end %>
+  </div>
 </div>
 
