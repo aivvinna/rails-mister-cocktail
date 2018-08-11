@@ -1,0 +1,49 @@
+.btn {
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn-pink {
+  background-color: white;
+  color: black;
+  border: 2px solid pink;
+  width: 200px;
+}
+
+.btn-pink:hover {
+  background-color: pink;
+  color: white;
+}
+
+.btn-delete {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+}
+
+.btn-delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn-sm-delete {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+
+}
+
+.btn-sm-delete:hover {
+  background-color: red;
+  color: white;
+}
