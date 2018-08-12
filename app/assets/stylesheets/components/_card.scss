@@ -4,12 +4,12 @@
   background-size: cover !important;
   background-color: #EFEFEF;
   border-radius: 5px;
-  color: white;
+  color: #FF7100;
   position: relative;
   margin-bottom: 20px;
   text-decoration: none;
   &:hover {
-    color: #FF01FB;
+    color: #FFA45C;
   }
 }
 
@@ -18,12 +18,12 @@ a:hover {
 }
 
 .card-linear-gradient {
-  background-image: linear-gradient(rgba(255, 153, 255, 0.3), rgba(255, 204, 255, 0.2));
+  background-image: linear-gradient(rgba(51, 115, 136, 0.3), rgba(127, 195, 217, 0.2));
   height: 175px;
   position: relative;
   margin-bottom: 20px;
   border-radius: 5px;
   &:hover {
-    background-image: linear-gradient(rgba(255, 153, 255, 0.2), rgba(0,0,0,0.0));
+    background-image: linear-gradient(rgba(127, 195, 217, 0.2), rgba(0,0,0,0.0));
   }
 }

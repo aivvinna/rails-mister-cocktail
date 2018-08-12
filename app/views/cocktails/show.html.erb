@@ -8,16 +8,16 @@
   <h4>
   <%= link_to "Delete dose", dose_path(dose),
       method: :delete,
-      data: { confirm: "Are you sure you want to delete this dose?" }, class: 'btn-xs btn-sm-delete' %>
+      data: { confirm: "Are you sure you want to delete this dose?" }, class: 'btn-xs btn-sm-delete', id: 'sweet-alert-warning-dose' %>
       </h4>
       <hr>
 <% end %>
 
     <div class="col-md-2 col-md-offset-5">
-      <%= link_to "Add a dose", new_cocktail_dose_path(@cocktail), class: 'btn btn-pink' %>
+      <%= link_to "Add a dose", new_cocktail_dose_path(@cocktail), class: 'btn btn-orange' %>
       <%= link_to "Delete cocktail", cocktail_path,
         method: :delete,
-        data: { confirm: "Are you sure you want to delete this cocktail?" }, class: 'btn btn-delete' %>
+        data: { confirm: "Are you sure you want to delete this cocktail?" }, class: 'btn btn-delete', id: 'sweet-alert-warning-cocktail' %>
     </div>
 
 </div>

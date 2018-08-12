@@ -10,28 +10,29 @@
 
 #cocktail-title {
   margin-top: 0px;
-  font-family: 'Do Hyeon', sans-serif;
-  font-weight: 1000;
+  font-weight: 500;
   font-size: 200px;
-  color: #FFA4F4;
+  color: #FF7100;
+  font-family: 'Pacifico', cursive;
 }
 
 .cocktail-header {
-  font-family: 'Do Hyeon', sans-serif;
-  font-weight: 1000;
+  font-weight: 500;
   font-size: 100px;
-  color: #FFA4F4;
+  color: #FF7100;
+  font-family: 'Pacifico', cursive;
 }
 
 .moving-text {
   font-family: 'Pacifico', cursive;
   font-size: 100px;
-  color: #FFA4F4;
+  color: #FF7100;
 }
 
 body {
-  background: linear-gradient(to bottom, lightblue, #8E12FF);
+  background: linear-gradient(to bottom, #ACB9F6, #01115D);
   margin: 0px;
+  font-family: 'Pacifico', cursive;
 }
 
 h1 {
